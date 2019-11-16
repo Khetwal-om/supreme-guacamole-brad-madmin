@@ -86,15 +86,267 @@
     </div>
   </nav>
 
+
+<!-- Section  : Stats-->
+
+
+<section class="section section-stats center">
+  <div class="row">
+    <div class="col s12 m6 l3">
+      <div class="card-panel blue lighten-1 white-text center">
+         <i class="material-icons medium">insert_emoticon</i>
+         <h5>Monthly Visitors</h5>
+          <h3 class="count">28300</h3>
+          <div class="progress grey lighten-1">
+              <div class="determinate white" style="width: 40%;">
+              </div>
+          </div>
+      </div>
+    </div>
+
+      <div class="col s12 m6 l3">
+        <div class="card-panel center">
+          <i class="material-icons medium">mode_edit</i>
+          <h5>Blog posts</h5>
+          <h3 class="count">111</h3>
+          <div class="progress grey lighten-1">
+            <div class="determinate  blue lighten-1" style="width: 20%;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col s12 m6 l3">
+          <div class="card-panel blue lighten-1 white-text center">
+            <i class="material-icons medium">mode_comment</i>
+            <h5>Comments</h5>
+            <h3 class="count">1200</h3>
+            <div class="progress grey lighten-1">
+              <div class="determinate white" style="width: 40%;">
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="col s12 m6 l3">
+            <div class="card-panel center">
+              <i class="material-icons medium">supervisor_account</i>
+              <h5>Users</h5>
+              <h3 class="count">340</h3>
+              <div class="progress grey lighten-1">
+                <div class="determinate white" style="width: 10%;"></div>
+              </div>
+            </div>
+          </div>
+  </div>
+
+</section>
+
+
+
+<!--  Section : visitors  chart-->
+
+  <div class="section section section-visitors blue lighten-4">
+    <div class="row">
+      <div class="col s12 m6 l8">
+        <div class="card-panel">
+          <div id="chartContainer" style="height:300px;width:100%;"></div>
+        </div>
+      </div>
+
+        <div class="col s12 m6 l4">
+<!--          Latest comments-->
+          <ul class="collection with-header latest-comments">
+            <li class="collection-header">Latest Comments</li>
+            <li class="collection-item avatar">
+              <img src="img/person1.jpg" alt="" class="circle">
+              <span class="title">John Levy</span>
+              <p class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aperiam blanditiis deserunt doloribus facere fugit illum impedit inventore itaque iure molestias provident quaerat reiciendis repudiandae sunt voluptates voluptatibus? Consequatur, sit!</p>
+
+              <a href="#" class="approve green-text">Approve</a>
+              <a href="#" class="deny red-text">Deny</a>
+
+            </li>
+
+
+            <li class="collection-item avatar">
+              <img src="img/person2.jpg" alt="" class="circle">
+              <span class="title">John Levy</span>
+              <p class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aperiam blanditiis deserunt doloribus facere fugit illum impedit inventore itaque iure molestias provident quaerat reiciendis repudiandae sunt voluptates voluptatibus? Consequatur, sit!</p>
+
+              <a href="#" class="approve green-text">Approve</a>
+              <a href="#" class="deny red-text">Deny</a>
+            </li>
+
+
+
+            <li class="collection-item avatar">
+              <img src="img/person3.jpg" alt="" class="circle">
+              <span class="title">John Levy</span>
+              <p class="truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, aperiam blanditiis deserunt doloribus facere fugit illum impedit inventore itaque iure molestias provident quaerat reiciendis repudiandae sunt voluptates voluptatibus? Consequatur, sit!</p>
+
+              <a href="#" class="approve green-text">Approve</a>
+              <a href="#" class="deny red-text">Deny</a>
+
+
+            </li>
+
+          </ul>
+        </div>
+      </div>
+  </div>
+
+
+
+<!--   Section Recent posts and todos-->
+
+
+
+  <section class="section section-recent">
+    <div class="row">
+      <div class="col s12 l8 m6">
+          <div class="card-content">
+              <span class="card-title">Recent Posts</span>
+              <table class="striped">
+                <thead>
+                  <tr>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th></th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                   <tr>
+                      <td>Post One</td>
+                      <td>Web Development</td>
+                      <td>
+                        <a href="details.html" class="btn blue lighten-2">Details
+                        </a>
+                      </td>
+                   </tr>
+                   <tr>
+                     <td>Post Three</td>
+                     <td>Graphics</td>
+                     <td>
+                       <a href="details.html" class="btn blue lighten-2">Details
+                       </a>
+                     </td>
+                   </tr>
+
+
+                   <tr>
+                     <td>Post Two</td>
+                     <td>Graphic Design</td>
+                     <td>
+                       <a href="details.html" class="btn blue lighten-2">Details
+                       </a>
+                     </td>
+                   </tr>
+
+
+                </tbody>
+
+
+              </table>
+          </div>
+      </div>
+
+      <div class="col s12 m6 l4">
+         <div class="card">
+             <div class="card-content">
+               <span class="card-title">  Quick Todos</span>
+
+               <form  id="todo-form">
+                 <div class="input-field">
+                   <input type="text" id="todo">
+                 </div>
+               </form>
+
+             </div>
+         </div>
+      </div>
+
+
+    </div>
+  </section>
+
+<!--  Preloader   -->
+
+  <div class="preloader-wrapper big active">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+      <div class="circle"></div>
+    </div><div class="circle-clipper right">
+      <div class="circle"></div>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      //Init Side nav
-      $('.button-collapse').sideNav();
 
-    });
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+    <script src="js/chart.js"></script>
+
+  <script>
+
+   // hide sections
+
+    $('.section').hide();
+
+    setTimeout(function () {
+
+      $(document).ready(function () {
+        // show sections
+
+        $('.section').fadeIn();
+
+        // Hide preloader
+        $('.loader').fadeOut();
+
+        //Init Side nav
+        $('.button-collapse').sideNav();
+
+
+
+        $('.count').each(function(){
+          $(this).prop('Counter',0).animate({
+                    Counter:$(this).text()
+                  },
+                  {
+                    duration:1000,
+                    easing:'swing',
+                    step: function (now) {
+                      $(this).text(Math.ceil(now));
+                    }
+                  });
+        });
+
+      });
+
+    },1000);
+
+
+
   </script>
 </body>
 
